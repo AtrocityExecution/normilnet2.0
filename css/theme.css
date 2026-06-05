@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap');
+
+/* ── design tokens ── */
+:root {
+  /* colours */
+  --bg:           #efefef;
+  --bg-surface:   #0d0d1f;
+  --bg-overlay:   rgba(13, 13, 31, 0.85);
+  --accent:       #00ffff;
+  --accent-2:     #ff00ff;
+  --accent-3:     #00ff00;
+  --text:         #000000;
+  --text-dim:     #4a5580;
+  --border:       #1c2450;
+
+ 
+  /* typography */
+  --font-display: 'Miasma', serif;
+  --font-pixel: 'Press Start 2P', monospace;
+  --font-body:    'VT323', monospace;
+
+  /* spacing */
+  --nav-h:        56px;
+  --section-pad:  80px;
+  --transition:   0.2s ease;
+}
+
+/* ── base ── */
+body {
+  font-family: var(--font-body);
+  font-size: 20px;
+  color: var(--text);
+  background-color: var(--bg);
+  min-height: 100vh;
+}
+
+
